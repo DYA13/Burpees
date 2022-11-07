@@ -1,0 +1,152 @@
+
+body{
+ background-color: #D4D3D5;   
+}
+
+
+
+#block {
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+   
+}
+#extract{
+    color: black;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+#btnOne, #btnTwo, #btnThree{
+    text-decoration: none;
+    color: white;
+}
+span:hover {
+    color: black;
+}
+#boxOne, #boxTwo, #boxThree {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+
+}
+#imageTwo {
+    margin-top: 20px;
+}
+#imageThree {
+margin-top: 30px;
+}
+
+
+
+@media all and (max-width: 1000px) {
+#extract {
+font-size: 15px;
+}
+#box {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+#image {
+margin-left: 120px;
+}
+
+h1 {
+text-align: center;
+}
+
+#btnOne, #btnTwo, #btnThree {
+width: 70%;
+}
+#headingBlockOne, #headingBlockTwo, #headingBlockThree{
+font-size: 25px;
+}
+#blockOne, #blockTwo, #blockThree {
+width: 220px;
+height: 650px;
+}
+
+#boxOne, #boxTwo, #boxThree {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;  
+
+
+}
+#imageOne {
+margin-top: 0px;
+margin-bottom: 3px;
+width: 60%;
+height: 60%;
+margin-left: 40px;
+}
+#imageTwo {
+
+margin-top: 0px;
+margin-bottom: 3px;
+width: 60%;
+height: 50%;
+margin-left: 40px;
+}
+#imageThree {
+
+margin-top: 20px;
+margin-bottom: 3px;
+width: 70%;
+height: 60%;
+margin-left: 30px;
+}
+
+
+}
+@media all and (max-width: 500px) {
+   
+ #imageContainer {
+padding: 5px;
+   }
+    #image {
+margin-left: 40px;
+margin-top: 3px;
+}
+#par {
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+text-align: center;
+}
+#blockOne, #blockTwo, #blockThree {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 350px;
+height: 650px;
+margin: 5px;
+padding: 5px;
+
+
+}
+#btnOne, #btnTwo, #btnThree {
+margin-left: 50px;
+}
+
+#boxOne, #boxTwo, #boxThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+ 
+
+}
+
+#imageOne, #imageTwo, #imageThree {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+}

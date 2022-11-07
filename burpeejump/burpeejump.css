@@ -1,0 +1,75 @@
+body {
+background-color: #D4D3D5;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#containerCountdown {
+display: flex;
+justify-content: center;
+font-size: 40px;
+}
+#jumpVideo {
+display: flex;
+justify-content: center;
+}
+
+#jumpButtons {
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+}
+#jumpStart, #jumpPause, #jumpBack {
+padding: 10px;
+margin: 10px 30px 10px  30px;
+border-radius: 5px;
+font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+@media all and (max-width: 1000px) {
+
+h1 {
+    font-size: 50px;
+}
+#container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 70px;
+
+}
+#jumpCountdown {
+font-size: 50px;
+}
+#jumpStart, #jumpPause, #jumpBack {
+font-size: 30px;
+padding: 20px;
+border-radius: 10px;
+}
+#jumpVid {
+width: 180%;
+}
+}
+@media all and (max-width: 500px) {
+h1 {
+    font-size: 30px;
+}
+#container {
+    margin-top: 30px;
+}
+#jumpCountdown {
+    font-size: 40px;
+    }
+#jumpStart, #jumpPause, #jumpBack {
+font-size: 18px;
+padding: 10px;
+border-radius: 10px;
+        }
+}

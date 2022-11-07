@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bikecrunches.css">
+</head>
+<body>
+  <audio src="audio2.mp3" id="musicPlay" loop="loop" type="audio/mp3" playsinline ></audio>
+
+  <div id="container"> 
+     
+<h1>Cominciamo Bikecrunches!</h1>
+
+<div id="containerCountdown">
+<p id="bikeCountdown">3:00</p>
+</div>
+
+<div id="bikeButtons">   
+<button id="bikeStart">START</button>
+<button id="bikePause">PAUSE</button>
+<button id="bikeBack"> <a href="/index.html">BACK</a> </button>
+</div>
+
+<div id="bikeVideo">
+<video loop="loop" muted defaultMuted playsinline id="bikeVid">
+    <source src="bikecrunches.mp4" type="video/mp4" controls>
+</video>
+</div>
+    
+</div>
+ <script src="bikecrunches.js"></script>
+</body>
+</html>

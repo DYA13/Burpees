@@ -1,0 +1,75 @@
+body {
+    background-color: #D4D3D5;
+    }
+    
+    h1 {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    #containerCountdown {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    }
+    #squatVideo {
+    display: flex;
+    justify-content: center;
+    }
+    
+    #squatButtons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    }
+    #squatStart, #squatPause, #squatBack {
+    padding: 10px;
+    margin: 10px 30px 10px  30px;
+    border-radius: 5px;
+    font-size: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    @media all and (max-width: 1000px) {
+
+        h1 {
+            font-size: 50px;
+        }
+        #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 70px;
+        
+        }
+        #squatCountdown {
+        font-size: 50px;
+        }
+        #squatStart, #squatPause, #squatBack {
+        font-size: 30px;
+        padding: 20px;
+        border-radius: 10px;
+        }
+        #squatVid {
+        width: 180%;
+        }
+    }
+    @media all and (max-width: 500px) {
+        h1 {
+        font-size: 30px;
+        }
+        #container {
+        margin-top: 30px;
+        }
+        #squatCountdown {
+        font-size: 40px;
+        }
+        #squatStart, #squatPause, #squatBack {
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 10px;
+        }
+    }
